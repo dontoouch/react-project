@@ -2,18 +2,18 @@
 import './Text.css';
 
 function Text({text,textColor,textSize , textDecoration}  ) {
- let decoration = '';
+ let line = '';
 if(textDecoration===true) {
-  decoration = "underline";
+  line = "underline";
 
 }
 else {
-  decoration = "none";
+  line = "none";
 }
 const styles = {
-  fontSize: textSize + "px",
+  fontSize: textSize ,
   color: textColor,
-  textDecoration: decoration,
+  textDecoration: line,
 };
   return (
     <div className='Text' style = {	styles }  > 
