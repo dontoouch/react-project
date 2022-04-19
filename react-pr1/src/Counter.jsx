@@ -11,17 +11,17 @@ const [ checkbox , setCheckbox] = useState('active');
 
 
   return (
-    <div className="checkbox">
-      <button onClick={()=> {
+    <div className="checkbox" onClick={()=> {
       if(checkbox === "active"){
         setCheckbox('deactiv')
       }
       else {
-        setCheckbox('active')
+        setCheckbox('activ')
       }
       
     }}>
-        {checkbox}
+      <button>
+        
       </button>
     </div>
   );
