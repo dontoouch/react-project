@@ -1,4 +1,4 @@
-import './Counter.css';
+
 import {useState} from 'react'
 import { MdRepeat, MdRepeatOne } from "react-icons/md";
 
