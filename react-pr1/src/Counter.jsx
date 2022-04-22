@@ -14,7 +14,7 @@ const [ checkbox , setCheckbox] = useState('active');
     <div className="checkbox">
       <button onClick={()=> {
       if(checkbox === "active"){
-        setCheckbox('deactiv')
+        setCheckbox('deactive')
       }
       else {
         setCheckbox('active')
